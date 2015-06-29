@@ -1,0 +1,17 @@
+{
+  "name": "Play Drum",
+  "description": "Play Drum app simulates a real drum on your mobile, PC or tablet screen. How  To play : Use your fingers on the drums and the sound is played with the every hit of your fingers. Enjoy this free app on any device with HTML5 support.",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/images/icon-128.png",
+    "60": "/images/icon-60.png"
+  },
+  "fullscreen": "true",
+  "orientation": [ "landscape" ],
+  "version": "1.0.0",
+  "developer": {
+    "name": "Funspellz",
+    "url": "http://www.funspellz.com"
+  }
+ 
+}

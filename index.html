@@ -1,0 +1,68 @@
+<html manifest="offline.appcache">
+<head>
+<title>Drum Player - Funspellz</title> 
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+
+
+
+    
+ 
+    <script src="Scripts/jquery-2.1.1.min.js"></script>
+<script src="Scripts/jscript.js"></script>
+<script src="Scripts/playdrum.js"></script>
+    <link rel="Stylesheet" href="Stylesheet/style.css"/>
+    
+</head>
+<body >
+   
+<div id="container"> 
+<img src="images/cymbal/crash.png"  class="crash resize" onclick="playCymbal(1)"/>
+<audio src="sounds/CrashCymbal.mp3" id="crash"  preload="auto"></audio>
+
+<img src="images/cymbal/hhclosed.png" class="hhclosed resize" onclick="playCymbal(2)"/>
+    <audio src="sounds/HiHatClosed.ogg" id="hhclosed" preload="auto"></audio>
+
+<img src="images/cymbal/hhlong.png" class="hhlong resize" onclick="playCymbal(3)"/>
+<audio src="sounds/HiHatLong.mp3" id="hhlong" preload="auto"></audio>
+
+<img src="images/cymbal/hhshort.png" class="hhshort resize" onclick="playCymbal(4)"/>
+ <audio src="sounds/HiHatShort.ogg" id="hhshort" preload="auto"></audio> 
+
+
+   
+<img src="images/drum/bass.png" class="bass resize" onclick="playDrum(1)"/>
+<audio src="sounds/BassHit.mp3" id="bass" preload="auto" preload="auto"></audio>
+
+<img src="images/drum/clap.png" class="clap resize" onclick="playDrum(2)"/>
+    <audio src="sounds/Clap.ogg" id="clap"  preload="auto"></audio>
+
+<img src="images/drum/rimshot.png" class="rimshot resize" onclick="playDrum(3)"/>
+<audio src="sounds/Rimshot.mp3" id="rimshot"  preload="auto" ></audio>   
+
+    
+<img src="images/snare/snare.png" class="snare1 resize" onclick="playSnare(1)">
+<audio src="sounds/Snare1.mp3" id="snare1" preload="auto"></audio>
+
+<img src="images/snare/snare.png" class="snare2 resize" onclick="playSnare(2)">
+<audio src="sounds/Snare2.mp3" id="snare2" preload="auto"></audio>
+    
+<img src="images/tom/tom.png" class="tomhi resize" onclick="playTom(1)"/>
+<audio src="sounds/TomHi.ogg" id="tomhi" preload="auto"></audio>   
+
+<img src="images/tom/tom.png" class="tommid resize" onclick="playTom(2)"/>
+<audio src="sounds/TomMid.ogg" id="tommid" preload="auto"></audio>    
+
+<img src="images/tom/tom.png" class="tomlow resize" onclick="playTom(3)"/>
+<audio src="sounds/TomLow.ogg" id="tomlow" preload="auto"></audio>
+    
+<img src="images/others/cowbell.png" class="cowbell resize" onclick="playOther(1)"/>
+<audio src="sounds/CowBell.ogg" id="cowbell" preload="auto" ></audio>
+</div> 
+    <div class="ad"> <script src="http://rq.vserv.mobi/delivery/js.php?zoneid=e2258522&vr=S-JS-1.0.0"> </script> </div> 
+    <div class="adclose"><p>CLOSE</p></div>
+    <a href="about.html"><div class="about">!</div></a>
+    
+</body>
+
+</html>
